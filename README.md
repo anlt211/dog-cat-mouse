@@ -21,11 +21,29 @@ Ex: git commit -m 'Add README file'
 -- chuyển một file từ staging -> directory
 -- xóa những thay đổi hiện tại ở working directory
 
-//git checkout - b <branch> (branching) // vừa tạo branch vừa checkout
+//git checkout - b <branch> (branching) // vừa tạo branch vừa checkout(chuyển tới)
 //git checkout <branch>		// chuyển tới branch
 //git merge
 - branch: tạo một nhánh mới
 - merge: ghép nhiều nhánh
 - công dụng khi có những chức năng mới (ex: tạo trang mới) tạo ra một branch để chạy, nếu đã chạy ổn thì merge lại. Để đảm bảo master luôn là tốt nhất
 - checkout: chuyển sang nhánh đó làm việc
-
+// git branch :// xem thử mình đang có bao nhiêu branch
+-- đã hài lòng kết quả làm: dùng merge - để kéo thay đổi branch B sang A
+A <---- B
+git checkout A
+git merge B
+master <-- feature/dog-class
+.-> tự tin delete branch đã xong
+//git branch -D <branch> (delete a branch)
+.-> làm sao để repository được sạch sẽ
+--------
+Unit6: git reset
+// git reset --soft <to_commit> 
+// git reset --mixed <to_commit>
+// git reset --hard <to_commit>
++ Undo commit khi commit không vừa ý 
+----
+Unit 6: git revert
+//git revert <commit>
+-> thấy cách đây vài commit - thấy nó sai, muốn bỏ nó đi (revert lại - bỏ những dấu "+" )

@@ -47,3 +47,9 @@ Unit6: git reset
 Unit 6: git revert
 //git revert <commit>
 -> thấy cách đây vài commit - thấy nó sai, muốn bỏ nó đi (revert lại - bỏ những dấu "+" )
+-- hạn chế dùng
+
+--------
+Unit 7: .gitignore 
+// không cho file nào đó được add
+

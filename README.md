@@ -7,3 +7,5 @@ Ex: git commit -m 'Add README file'
 
 //git log
 //git show
+
+//git diff 	//different: xem noi dung cua file modifile

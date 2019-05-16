@@ -53,3 +53,7 @@ Unit 6: git revert
 Unit 7: .gitignore 
 // không cho file nào đó được add
 
+-------
+Unit 8: github
+git remote add origin (link git)
+git remote -v

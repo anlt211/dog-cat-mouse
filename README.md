@@ -57,3 +57,21 @@ Unit 7: .gitignore
 Unit 8: github
 git remote add origin (link git)
 git remote -v
+git push
+git push -u origin master
+--------
+Unit 10:
+git config --global credential.helper store
+not recommend (~/.git-credentials) -- ít bảo mật
+
+
+git config --global credential.helper "cache --timeout=18000"
+
+google "gnome-keyring" "git ssh" 
+mac: keychain
+-----
+Unit 11
+git clone
+git pull
+
+
